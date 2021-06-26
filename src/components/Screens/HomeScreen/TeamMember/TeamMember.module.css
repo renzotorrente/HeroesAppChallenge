@@ -1,0 +1,96 @@
+
+#card_main{
+   width: 250px;
+   perspective:200rem;
+   position: relative;
+   height: 300px;
+   overflow: hidden;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   margin-right: 25px;
+}
+
+
+#card_main:hover #front{
+   transform: rotateY(180deg);
+}
+#card_main:hover #back{
+    transform: rotateY(0deg);
+ }
+
+ #back{
+	transform: rotateY(180deg);
+    transition: all 0.6s;
+    border:none !important;
+    background: #150E56;
+    color: white;
+    
+}
+#front{
+    transition: all 0.6s;
+    border:none !important;
+      background:#680d02;
+      color: white;
+
+}
+.img_front{
+    width:100%;
+    height: 85%;
+    border-radius: 0px !important;
+}
+
+
+#button_details{
+    background: #0A3257;
+    margin-right: 3px;
+    color: #FEFEFA;
+    width: 40%;
+    }
+    #button_remove{
+        background: #9b2315;
+        color:#FEFEFA;
+        width: 40%;
+        
+    }
+    #titlepower{
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(163, 161, 161);
+    font-style: oblique;
+    }
+    .percentage_view{
+        font-size: 22px;
+        color: white;
+    }
+    .bodyProgress{
+        width:100%;
+        display:flex;
+        height:auto;
+        align-items:baseline;
+        margin-bottom: 10px;
+     }
+     .skilltitle{
+         width: 56%;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         font-size: 14px;
+         margin-right: 2px;
+     }
+     .progressBar{
+     width:100%;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     }
+     #progress{
+     width: 100%;
+     background: gray;
+    
+     }
+     .button_card{
+         width: 100%;
+         display: flex;
+         justify-content: space-around;
+         margin-top: 16px;
+     }

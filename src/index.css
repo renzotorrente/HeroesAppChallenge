@@ -1,0 +1,18 @@
+body{
+    background: #0A3257 ;
+
+}
+.button_close{
+    font-size: 19px;
+    border:none !important;
+    border: 0px;
+}
+.container_alert{
+    height: 100px;
+}
+
+.modal_alert{
+    color: white !important;
+    font-size: 18px;
+    font-weight:normal;
+}

@@ -1,0 +1,12 @@
+
+  
+  #sticky_footer {
+    flex-shrink: none;
+    bottom: 0;
+    height: 40px;
+    line-height: 0px;
+    background: #4b1610;
+    color: white;
+    width: 100%;
+  }
+  

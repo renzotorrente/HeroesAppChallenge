@@ -1,0 +1,31 @@
+.card_main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-top: 20px;
+}
+#box_card{
+    width: 610px;
+    background-color:#680d02 ;
+    color: white;
+    height: auto;
+    border: 0px  !important;
+    cursor: pointer;
+}
+#box_card:hover{
+    background-color: #4e120c;
+}
+
+#imgdetails{
+    height: 313px;
+}
+@media all and (max-width:800px){
+    #imgdetails{
+        height: auto;
+    }
+    #boxc_card{
+        max-width: 550px;
+        transition: all 200ms;
+    }
+}

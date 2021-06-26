@@ -1,0 +1,10 @@
+.cards_container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    height: auto;
+    }
+   

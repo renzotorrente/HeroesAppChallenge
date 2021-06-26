@@ -1,0 +1,90 @@
+
+.navcontaint{
+    background: #150E56;
+    width: 100%;
+    height: 60px;
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+}
+#wrap_nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+   
+}
+.nav > ul{
+    text-decoration: none;
+    list-style: none;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight:lighter;
+    margin:0px;
+    padding:0px;
+    
+
+    
+}
+.nav > ul > li > a{
+    text-decoration: none !important;
+    color: white ;
+}
+.nav > ul > li > a :hover {
+    transition: 20ms;
+    color: rgb(122, 114, 114) !important;
+}
+.navlink{
+    text-decoration: none !important;
+    color: white ;
+}
+.nav_form{
+    width: 30%;
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+.nav_form > input {
+    width: 85%;
+    height: 100%;
+}
+.search_button{
+    width: 15%;
+    background: #991b0d;
+    color: #FEFEFA;
+    text-decoration: none;
+    border: none;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin:0px;
+    height: 100%
+}
+ .btn_icon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .search_button > span:hover{
+     background:#d11b07 ;
+     
+ }
+ @media all and (max-width:350px){
+  .navcontaint{
+      width: auto;
+      height: auto;
+  }
+  .nav_form  {
+   width: auto;  
+}
+ }
